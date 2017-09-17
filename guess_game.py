@@ -1,4 +1,4 @@
-#This os a guess the number game.
+#This is a guess the number game.
 import random
 
 guessesTaken = 0
@@ -25,4 +25,4 @@ if guess == number:
     print('System: Good job,'+myName+'! You guessed my number in '+guessesTaken+' guesses.')
 if guess !=number:
     number = str(number)
-    print ('System: Nope. The number i was thinking was'+number)
+    print ('System: Nope. The number i was thinking was '+number)
